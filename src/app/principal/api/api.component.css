@@ -1,0 +1,31 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-title {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+   
+}
+.box:nth-child(even){
+    background: linear-gradient(to right, rgba(247, 185, 235, 0.849) 0%, rgb(179, 126, 209) 100%);    
+}
+.box:nth-child(odd){
+    background: linear-gradient(to right, rgb(117, 248, 209) 0%, rgba(63, 191, 251, 0.849)100%);
+}
+.box-paragraph {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    height: 100%;
+    
+}
+.box {
+    margin: 12px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    width: calc(33.33% - 24px); 
+}
